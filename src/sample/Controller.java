@@ -7,9 +7,9 @@ import javafx.scene.shape.Rectangle;
 
 
 public class Controller {
-    @FXML private Circle ball;
-    @FXML private Rectangle p1paddle;
-    @FXML private Rectangle p2paddle;
+    @FXML private Circle ball; //pulls the Circle "ball" from sample.fxml
+    @FXML private Rectangle p1paddle; //pulls the Rectangle "p1paddle" from sample.fxml
+    @FXML private Rectangle p2paddle; //pulls the Rectangle "p2paddle" from sample.fxml
 
     //method called by the AnchorPane and is accessed on every keypress
     public void paddleMove(KeyEvent event) {
